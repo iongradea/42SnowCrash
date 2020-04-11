@@ -30,9 +30,9 @@
 - Summary : `/usr/bin/env` loads the environment variables of the user, this is necessary for the exploit.
 - This is done because the `cat /etc/environment` set the `$PATH` variable for all users :
   - result : `PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"`
-  - Source : `https://stackoverflow.com/questions/1641477/how-to-set-environment-variable-for-everyone-under-my-linux-system`
+  - Source : https://stackoverflow.com/questions/1641477/how-to-set-environment-variable-for-everyone-under-my-linux-system
 - Interesting discussion on the use of `/usr/bin/env` :
-  - url : `https://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my`
+  - url : https://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my
 
 ## Additional resources
 
