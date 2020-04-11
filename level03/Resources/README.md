@@ -1,6 +1,6 @@
 # Level03 : find flag03
 
-## Tutorial 
+## Tutorial
 
 1. Launching the `level03` binary : it says `Exploit me`
 2. Checking the binary `strings ~/level03 | grep Exploit`:
@@ -27,9 +27,14 @@
   - result : `lol`
 - Execute `PATH=/tmp:$PATH /usr/bin/env echo`
   - result : `Check flag.Here is your token : Nope there is no token here for you sorry. Try again :)`
-- Summary : `/usr/bin/env` loads the environment variables of the user, this is necessary for the exploit
+- Summary : `/usr/bin/env` loads the environment variables of the user, this is necessary for the exploit.
+- This is done because the `cat /etc/environment` set the `$PATH` variable for all users :
+  - result : `PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"`
+  - Source : `https://stackoverflow.com/questions/1641477/how-to-set-environment-variable-for-everyone-under-my-linux-system`
+- Interesting discussion on the use of `/usr/bin/env` :
+  - `https://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my`
 
-## Additional resources 
+## Additional resources
 
 - Permissions (suid, sgid, sticky bit)
   - https://www.tecmint.com/how-to-find-files-with-suid-and-sgid-permissions-in-linux/
@@ -38,4 +43,3 @@
 - Alias don't execute in scripts by default, need to set the shell as interactive :
   - possible other solution, doesn't work here (check link) : `alias echo=getflag`
   - https://stackoverflow.com/questions/30130954/alias-doesnt-work-inside-a-bash-script
-
