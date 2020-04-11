@@ -29,6 +29,8 @@ SnowCrash project at 42
 
 ## Useful resources
 
+`TODO : to be completed at the end of the project with the most useful resources for daily work`
+
 - EFL format : Executable and linker format
   - https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
 - Permissions (suid, sgid, sticky bit)
