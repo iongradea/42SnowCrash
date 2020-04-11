@@ -26,10 +26,8 @@
 - Execute `PATH=/tmp:$PATH echo lol`
   - result : `lol`
 - Execute `PATH=/tmp:$PATH /usr/bin/env echo`
-  - result :
-```Check flag.Here is your token :
-Nope there is no token here for you sorry. Try again :)```
-- Summary : `/usr/bin/env` loads the environment variables of the user
+  - result : `Check flag.Here is your token : Nope there is no token here for you sorry. Try again :)`
+- Summary : `/usr/bin/env` loads the environment variables of the user, this is necessary for the exploit
 
 ## Additional resources 
 
