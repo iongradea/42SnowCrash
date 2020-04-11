@@ -32,7 +32,7 @@
   - result : `PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"`
   - Source : `https://stackoverflow.com/questions/1641477/how-to-set-environment-variable-for-everyone-under-my-linux-system`
 - Interesting discussion on the use of `/usr/bin/env` :
-  - `https://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my`
+  - url : `https://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my`
 
 ## Additional resources
 
