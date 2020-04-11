@@ -20,6 +20,8 @@ SnowCrash project at 42
 
 ## Useful websites
 
+- terminal :
+  - url : https://doc.ubuntu-fr.org/terminal
 - dcode : universal site for decoding messages
   - url : https://www.dcode.fr/en
 - cloudshark : network protocol analyzer (same as wireshark)

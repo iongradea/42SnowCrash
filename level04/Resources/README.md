@@ -60,14 +60,16 @@ www-data  1452  0.0  0.4  21420  4420 ?        S    Apr09   0:00 /usr/sbin/apach
 
 ## Additional resources
 
+- apache server :
+  - url : https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
+- Module Apache mod_suexec : permet l'exécution des scripts CGI sous l'utilisateur et le groupe spécifiés
+  - url : https://httpd.apache.org/docs/2.4/fr/mod/mod_suexec.html
+  - Syntaxe : `SuexecUserGroup Utilisateur Groupe`
 - Perl, setting locale :
   - url : https://www.thomas-krenn.com/en/wiki/Perl_warning_Setting_locale_failed_in_Debian
 - Perl and CGI :
   - https://www.cs.ait.ac.th/~on/O/oreilly/perl/learn32/ch18_04.htm
   - http://devernay.free.fr/cours/internet/cgi/perlex.html
-- Module Apache mod_suexec : permet l'exécution des scripts CGI sous l'utilisateur et le groupe spécifiés
-  - url : https://httpd.apache.org/docs/2.4/fr/mod/mod_suexec.html
-  - Syntaxe : `SuexecUserGroup Utilisateur Groupe`
 - Check services running on ports :
  - url : https://linoxide.com/linux-how-to/check-service-running-linux-port/
  - usage : `netstat -pnltu`
